@@ -1,0 +1,34 @@
+{
+  "name": "pinia-persistence",
+  "version": "1.0.0",
+  "description": "A pinia plugin for state persistence",
+  "scripts": {
+    "build": "del-cli dist && tsc"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trentlee0/pinia-persistence.git"
+  },
+  "keywords": [
+    "pinia",
+    "plugin"
+  ],
+  "bugs": {
+    "url": "https://github.com/trentlee0/pinia-persistence/issues"
+  },
+  "author": "Trent0",
+  "license": "MIT",
+  "peerDependencies": {
+    "pinia": "^2.0.0"
+  },
+  "devDependencies": {
+    "del-cli": "^5.0.0",
+    "pinia": "^2.1.3",
+    "prettier": "^2.8.8",
+    "typescript": "^5.0.4"
+  },
+  "homepage": "https://github.com/trentlee0/pinia-persistence#readme"
+}
